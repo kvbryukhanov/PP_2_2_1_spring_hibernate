@@ -37,9 +37,7 @@ public class MainApp {
             System.out.println();
         }
 
-        System.out.println(userService.getUserByCarModel("Toyota"));
-        System.out.println();
-        System.out.println(userService.getUserByCarSeries(2264));
+        System.out.println(userService.getUserByCarModelAndSeries("Toyota", 2233));
         System.out.println();
         context.close();
     }

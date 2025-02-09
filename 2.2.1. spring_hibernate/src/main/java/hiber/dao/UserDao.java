@@ -12,7 +12,5 @@ public interface UserDao {
 
     void addCar(Car car);
 
-    User getUserByCarModel(String model);
-
-    User getUserByCarSeries(int series);
+    User getUserByCarModelAndSeries(String model, int series);
 }
